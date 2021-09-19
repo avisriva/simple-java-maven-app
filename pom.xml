@@ -17,6 +17,7 @@
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <sonar.projectKey>avisriva_simple-java-maven-app</sonar.projectKey>
   </properties>
   <build>
     <pluginManagement>
