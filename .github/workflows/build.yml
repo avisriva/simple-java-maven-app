@@ -1,10 +1,12 @@
 name: Build
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    types: [opened, synchronize, reopened]
+  #push:
+  #  branches:
+  #    - master
+  #pull_request:
+  #  types: [opened, synchronize, reopened]
+  repository_dispatch:
+    types: [start-example-workflow]
 jobs:
   build:
     name: Build
